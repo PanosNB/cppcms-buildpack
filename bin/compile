@@ -42,6 +42,7 @@ fi
 
 
 echo "-----> compiling with make ..."
+touch *
 make | indent
 
 
